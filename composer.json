@@ -1,0 +1,16 @@
+{
+    "name": "conv/conv-bundle",
+    "keywords": ["Claroline", "Plugin"],
+    "homepage": "http://www.claroline.net",
+    "type": "claroline-plugin",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.4.1",
+        "claroline/core-bundle": "~4.1",
+		"cunningsoft/chat-bundle": "0.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "CONV\\CONV": "" }
+    },
+    "target-dir": "CONV/CONVBundle"
+}

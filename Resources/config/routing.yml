@@ -1,0 +1,4 @@
+conv_controller:
+    resource: "@CONVCONVBundle/Controller/CONVController.php"
+    type: annotation
+    prefix: /
